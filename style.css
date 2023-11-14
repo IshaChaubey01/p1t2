@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://wallpapers.com/images/featured/4k-ultra-hd-galaxy-gd084x5buvc6qrj8.jpg');
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#original-url {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+#shorten-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#shortened-url {
+    margin: 20px 0;
+}
